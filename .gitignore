@@ -3,5 +3,6 @@ profile/
 dist/
 lib/
 dist/js/maps/
+.stencil/
 .vscode/chrome/
 yarn-error.log

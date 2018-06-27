@@ -2,7 +2,9 @@
    "extends": "./node_modules/@toba/build/ts/config",
    "compilerOptions": {
       "declaration": false,
-      "removeComments": true
+      "removeComments": true,
+      "jsxFactory": "h",
+      "experimentalDecorators": true
    },
    "include": ["./src/**/*.ts"],
    "exclude": [
